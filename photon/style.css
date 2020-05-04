@@ -1,6 +1,45 @@
 
 
 /* shna section */
+body,html{
+    margin: 8px;
+    font-family: "Raleway";
+}
+.header-background{
+    background-image: url("http://cdn.jevelin.shufflehound.com/wp-content/uploads/sites/12/2017/03/Port_2_Background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.nav-container-position{
+position: absolute;
+top:-85px;
+
+}
+.container-fluid .nav-container-position{
+    margin-top:85px;
+}
+.header-title{
+    color: white;
+    text-align: center;
+    font-size: 60px;
+}
+.header-p{
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    line-height: 160% !important;
+   
+}
+.header-p a{
+    text-decoration: none;
+    color: #16acce;
+}
+
+
 
 /* end shan section */
 
