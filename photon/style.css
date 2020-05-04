@@ -15,23 +15,57 @@
 /* ahmed's section */
 
 
-@media (max-width: 576px){
-.card-columns {
-    -webkit-column-count: 2;
-    -moz-column-count: 2;
-    column-count: 2;
-  
-}
-}
 
-@media (max-width: 300px){
-    .card-columns {
-        -webkit-column-count:1;
-        -moz-column-count: 1;
-        column-count: 1;
-    }
-    }
+    .card{
+        overflow: hidden;
 
+    }
+    .card-columns .card:hover {
+        transform: scale(1.05);
+        
+    }
+    .card-columns .card img {
+        width: 100%;
+    }
+    /* .carousel-caption {
+        transform: translateY(-50%);
+        bottom: 0;
+        top: 50%;
+      } */
+      .card-overlay{
+          display: none;
+          align-items: center;
+          justify-content: center;
+          left: 0;
+          bottom: 0;
+          right: 0;
+          background-color: rgba(0, 145, 241, 0.8);
+          width: 100%;
+          height: 100%;
+          margin: 0;
+          padding: 0;
+      }
+    .card:hover .card-overlay{
+          display: flex;
+          
+
+      }
+    @media (max-width: 576px){
+        .card-columns {
+            -webkit-column-count: 2;
+            -moz-column-count: 2;
+            column-count: 2;
+          
+        }
+        }
+        
+        @media (max-width: 300px){
+            .card-columns {
+                -webkit-column-count:1;
+                -moz-column-count: 1;
+                column-count: 1;
+            }
+            }
 /* end fo ahmed section */
 
 
