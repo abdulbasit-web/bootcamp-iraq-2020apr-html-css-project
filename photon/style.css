@@ -138,6 +138,12 @@
     text-decoration: none;
     transition: 1.2s;
 }
+
+.about-mem{
+    font-size: 14px;
+    margin-top: 3%;
+    flex-basis: 100%;
+}
 /* end of ebo section */
 
 
