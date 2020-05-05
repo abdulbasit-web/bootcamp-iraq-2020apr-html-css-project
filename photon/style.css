@@ -132,6 +132,7 @@
     color:black;
     text-transform: uppercase;
     transition: 1.2s;
+    flex-basis: 100%;
 }
 .mem-name:hover{
     color:rgb(29, 6, 161);
@@ -143,6 +144,21 @@
     font-size: 14px;
     margin-top: 3%;
     flex-basis: 100%;
+}
+.social-icons{
+    display: inline-block;
+  
+    font-size: 20px;
+}
+.social-icons a{
+    transition: 1.2s;
+    margin: 0 8px;
+}
+
+.social-icons a:hover{
+    transition: 1.2s;
+    color:rgb(29, 6, 161);
+    text-decoration:none;
 }
 /* end of ebo section */
 
