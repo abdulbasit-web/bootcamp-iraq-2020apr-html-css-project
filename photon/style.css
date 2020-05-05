@@ -115,7 +115,11 @@
     padding: 10% 0 20%;
 
 }
-
+.member-card:hover{
+    padding-top:9% ;
+    box-shadow: 1px 1px 10px 0px rgba(154, 148, 148, 0.75);
+    transition: 0.5s;
+}
 /* end of ebo section */
 
 
