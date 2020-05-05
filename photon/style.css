@@ -100,7 +100,12 @@
 #team-section .col-12{
     display:flex;
 }
-
+.mem-photo{
+    height: 150px;
+    width:150px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 5px 0px rgba(154, 148, 148, 0.75);
+}
 
 /* end of ebo section */
 
