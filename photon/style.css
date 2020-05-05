@@ -106,6 +106,15 @@
     border-radius: 50%;
     box-shadow: 1px 1px 5px 0px rgba(154, 148, 148, 0.75);
 }
+.member-card{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    height: auto;
+    padding: 10% 0 20%;
+
+}
 
 /* end of ebo section */
 
