@@ -1,61 +1,49 @@
-
-
 /* shna section */
 
 /* end shan section */
-
-
-
-
-
-
 
 /* ahmed's section */
 
 /* end fo ahmed section */
 
-
-
-
-
-
-
-
-
 /* abd section 1  */
 
+.bg-frinds {
+  background: #f5f5f5;
+}
+
+.friend-text{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200 !important;
+    opacity: 0.8;
+}
+
+.friend-text span{
+    font-weight: 700 !important;
+}
+
+.slick-track {
+  display: flex !important;
+}
+
+.slick-slide {
+  display: flex !important;
+ flex-wrap: wrap; 
+  height: auto ;
+  align-items: center ;
+  justify-content: center ;
+}
+
 /* end of abd section 1 */
-
-
-
-
-
-
-
-
-
 
 /* ebo section  */
 
 /* end of ebo section */
 
-
-
-
-
-
-
-
-
 /* abd section 2 */
-.bg-frinds{
-    background: #F5F5F5;
+
+.bg-form {
+  background: #b7b7b7;
 }
-
-.bg-form{
-    background: #B7B7B7;
-}
-
-
 
 /* end of abd section 2 */
