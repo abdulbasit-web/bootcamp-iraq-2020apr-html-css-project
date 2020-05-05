@@ -94,6 +94,13 @@
 
 
 /* ebo section  */
+#team-section{
+    margin-top: 20px;
+}
+#team-section .col-12{
+    display:flex;
+}
+
 
 /* end of ebo section */
 
