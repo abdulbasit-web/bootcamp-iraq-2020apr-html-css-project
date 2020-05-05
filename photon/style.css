@@ -106,6 +106,9 @@
     border-radius: 50%;
     box-shadow: 1px 1px 5px 0px rgba(154, 148, 148, 0.75);
 }
+#team-section .col-3{
+    display: inline-block;
+}
 .member-card{
     display: flex;
     flex-wrap: wrap;
@@ -128,6 +131,11 @@
     font-weight: bold;
     color:black;
     text-transform: uppercase;
+    transition: 1.2s;
+}
+.mem-name:hover{
+    color:rgb(29, 6, 161);
+    text-decoration: none;
     transition: 1.2s;
 }
 /* end of ebo section */
