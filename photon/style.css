@@ -17,15 +17,19 @@
 
 
     .card{
+       
         overflow: hidden;
 
     }
-    .card-columns .card:hover {
-        transform: scale(1.05);
+    /* .card-columns .card:hover {
         
-    }
+    } */
     .card-columns .card img {
         width: 100%;
+    }
+    .img-hover-effect:hover{
+        transform: scale(1.5);
+
     }
     /* .carousel-caption {
         transform: translateY(-50%);
