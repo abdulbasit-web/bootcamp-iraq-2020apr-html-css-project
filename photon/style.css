@@ -103,6 +103,7 @@
 /* ebo section  */
 #team-section{
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 #team-section .col-12{
     display:flex;
