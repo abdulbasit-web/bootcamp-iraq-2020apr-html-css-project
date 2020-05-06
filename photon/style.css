@@ -153,11 +153,11 @@ body,html{
 /* end of abd section 1 */
 
 /* ebo section  */
-#team-section{
+.team-section{
     margin-top: 20px;
     margin-bottom: 20px;
 }
-#team-section .col-12{
+.team-section .col-12{
     display:flex;
 }
 .mem-photo{
@@ -166,7 +166,7 @@ body,html{
     border-radius: 50%;
     box-shadow: 1px 1px 5px 0px rgba(154, 148, 148, 0.75);
 }
-#team-section .col-3{
+.team-section .col-3{
     display: inline-block;
 }
 .member-card{
