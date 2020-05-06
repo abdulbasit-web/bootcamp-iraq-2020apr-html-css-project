@@ -51,6 +51,7 @@ body,html{
 }
 .bottom-nav{
     padding-top: 5%;
+    margin-bottom: 30px;
 }
 /* end shan section */
 
@@ -65,7 +66,9 @@ body,html{
 /* ahmed's section */
 
 
-
+.img-gallery{
+    margin-top: -30px;
+}
     .card{
        
         overflow: hidden;
