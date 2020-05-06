@@ -18,6 +18,8 @@
     <!-- google font  -->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;700&family=Poiret+One&display=swap" rel="stylesheet">
 
+    <!-- AOS libray -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <!-- Slick slider  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" />
@@ -96,11 +98,7 @@
 </header>
 <!-- end shan section -->
 
-<section class="home-section">
-    <div class="overlay">
-        
-    </div>
-</section>
+
 
 
 
@@ -281,7 +279,7 @@
 
 
     <!-- abd section 1  -->
-<section class="p-5 bg-frinds">
+<section class="p-5 bg-frinds" data-aos="fade-up">
     <div class="row ">
         <div class="col-md-3 p-5">
             <h1 class="friend-text">some of our <span>frinds</span></span></h1>
@@ -423,7 +421,8 @@
 
 
     <!-- abd section 2 -->
-    <section id="contact-us">
+    <section id="contact-us" data-aos="fade-up"
+    data-aos-anchor-placement="bottom-bottom">
         <div class="text-center bg-form p-4">
             <h1 class="my-4  text-white">Contact us!</h1>
             <div class="row justify-content-center">
@@ -465,6 +464,9 @@
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
 
+    <!-- AOS libray --> 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
     <!-- slick slider js -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
 
@@ -472,6 +474,9 @@
         $('.carousel').carousel({
             interval: 1000,
         })
+
+        // init AOS 
+        AOS.init();
 
         //init slick slider
         $('.slick-slider').slick({
