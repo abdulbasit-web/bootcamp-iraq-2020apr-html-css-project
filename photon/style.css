@@ -66,9 +66,9 @@ body,html{
 /* ahmed's section */
 
 
-.img-gallery{
-    margin-top: -30px;
-}
+    .img-gallery{
+        margin-top: -30px;
+    }
     .card{
        
         overflow: hidden;
